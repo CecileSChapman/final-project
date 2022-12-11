@@ -47,6 +47,62 @@ table {
 	border-spacing: 0;
 }
 
+/* my css starts */
+/* colours: #c78c06, #ffe6ac, #222 and white */
+
 body {
     font-family:'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1200px;
+    background-color: #222;
+}
+
+/* nav */
+
+nav {
+    display: flex;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul li {
+    align-items: center;
+    background-color: #222;
+}
+
+ul a {
+    color: #c78c06;
+    text-decoration: none;
+    
+}
+.home {
+    background-color: #c78c06;
+    color: #222;    
+}
+/*welcome*/
+
+.header-welcome {
+    background-image:url('../images/main-banner.jpg');
+    background-size:contain;
+    padding: 14px;
+    background-repeat: no-repeat;
+}
+.header-welcome h1 {
+    font-size: 71px;
+    font-weight: 700;
+}
+.header-welcome .container {
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* desktop */
+
+@media screen and (min-wdth: 760px) {
+    
 }
