@@ -54,19 +54,25 @@ table {
 /*general*/
 body {
     font-family:'Open Sans', sans-serif;
-    font-size: 8px;
-    line-height: 1.5;
+    font-size: xx-small;
     color: black;
     background-color: white;
 }
 
 .container {
-    padding: 7px;
+    padding: 14px;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 47px;
     font-weight: 700;
+}
+
+h1 {
+    font-size: xx-large;
+    color: white;
+    font-weight: 700;
+    line-height: 1.5em;
 }
 
 
@@ -108,7 +114,7 @@ ul a {
     border: 1px solid #222;
     width: 100%;
     padding-left: 7px;
-    font-size: 8px;
+    font-size: 17px;
 }
 
 input#site-search {
@@ -123,7 +129,7 @@ input#site-search {
     border: 1px solid #c78c06;
     background-color: #222;
     color:#c78c06;
-    font-size: 8px;
+    font-size: 17px;
     padding: 5px;
 }
 /*welcome*/
@@ -140,12 +146,7 @@ input#site-search {
     background-color: rgba(0,0,0,0.5);
     padding: 7px;
 }
-.header-welcome h1 {
-    font-size: 37px;
-    color: white;
-    font-weight: 700;
-    line-height: 68px;
-}
+
 .section-button {
     background-color: #c78c06;
     text-decoration: none;
@@ -153,11 +154,10 @@ input#site-search {
     display: block;
     padding: 18px;
     display:table;
+    font-size: 17px;
 }
 .header-welcome p {
     color: white;
-    font-size: 8px;
-    line-height: 11px;
     padding-bottom: 8px;
 }
 
