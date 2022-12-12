@@ -53,27 +53,28 @@ table {
 body {
     font-family:'Open Sans', sans-serif;
     font-size: 14px;
+    line-height: 1.5;
+    color: black;
+    background-color: white;
 }
 
 .container {
     max-width: 1200px;
     background-color: #222;
+    padding: 14px;
 }
 
 /* nav */
 
-nav {
-    display: flex;
-}
-ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 ul li {
-    align-items: center;
     background-color: #222;
+    text-align: center;
+    padding: 12px;
+}
+
+.logo {
+    background-color: #c78c06;
 }
 
 ul a {
@@ -85,17 +86,24 @@ ul a {
     background-color: #c78c06;
     color: #222;    
 }
+
+.search-bar {
+    width: calc(100% - 41px);
+    height: 41px;
+}
 /*welcome*/
 
 .header-welcome {
     background-image:url('../images/main-banner.jpg');
-    background-size:contain;
+    background-size: contain;
     padding: 14px;
     background-repeat: no-repeat;
 }
 .header-welcome h1 {
     font-size: 71px;
     font-weight: 700;
+    line-height: 107px;
+    margin-bottom: 18px;
 }
 .header-welcome .container {
     background-color: rgba(0,0,0,0.5);
