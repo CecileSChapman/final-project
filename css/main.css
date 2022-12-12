@@ -50,22 +50,31 @@ table {
 /* my css starts */
 /* colours: #c78c06, #ffe6ac, #222 and white */
 
+
+/*general*/
 body {
     font-family:'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 8px;
     line-height: 1.5;
     color: black;
     background-color: white;
 }
 
 .container {
-    max-width: 1200px;
-    background-color: #222;
-    padding: 14px;
+    padding: 7px;
 }
+
+h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
 
 /* nav */
 
+nav .container {
+    background-color: #222;
+}
 
 ul li {
     background-color: #222;
@@ -75,6 +84,7 @@ ul li {
 
 .logo {
     background-color: #c78c06;
+    padding-bottom: 25px;
 }
 
 ul a {
@@ -87,26 +97,78 @@ ul a {
     color: #222;    
 }
 
+.search {
+    display: table;
+}
 .search-bar {
-    width: calc(100% - 41px);
-    height: 41px;
+    display: table-cell;
+    width: 100%;
+}
+.search-bar-style {
+    border: 1px solid #222;
+    width: 100%;
+    padding-left: 7px;
+    font-size: 8px;
+}
+
+input#site-search {
+    padding: 6px;
+}
+
+.search-button {
+    display: table-cell;
+
+}
+.search-button button {
+    border: 1px solid #c78c06;
+    background-color: #222;
+    color:#c78c06;
+    font-size: 8px;
+    padding: 5px;
 }
 /*welcome*/
 
 .header-welcome {
-    background-image:url('../images/main-banner.jpg');
-    background-size: contain;
-    padding: 14px;
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
     background-repeat: no-repeat;
 }
-.header-welcome h1 {
-    font-size: 71px;
-    font-weight: 700;
-    line-height: 107px;
-    margin-bottom: 18px;
-}
-.header-welcome .container {
+.welcome-container {
     background-color: rgba(0,0,0,0.5);
+    padding: 7px;
+}
+.header-welcome h1 {
+    font-size: 37px;
+    color: white;
+    font-weight: 700;
+    line-height: 68px;
+}
+.section-button {
+    background-color: #c78c06;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 18px;
+    display:table;
+}
+.header-welcome p {
+    color: white;
+    font-size: 8px;
+    line-height: 11px;
+    padding-bottom: 8px;
+}
+
+/*about*/
+
+.section-about .container {
+    background-color: #ffe6ac;
+}
+
+.about-us-image img {
+    max-width: 100%;    
 }
 
 /* desktop */

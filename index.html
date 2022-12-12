@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a369465566.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -23,24 +24,28 @@
                     <li><a href="#">Team</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <div class="search">
                 <form>
-                    <input class="search-bar" type="search" id="site-search" name="site-search" placeholder="Search">
-                    <button>
-                        &#128269;
-                    </button>
+                    <div class="search">
+                        <div class="search-bar">
+                            <input class="search-bar-style" type="search" id="site-search" name="site-search" placeholder="Search">
+                        </div> <!--end search-bar-table-->
+                        <div class="search-button">
+                            <button>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div> <!--end search-button-->
+                    </div> <!--end search-->
                 </form>
-                </div> <!--end search-->
             </div> <!--end container-->
         </nav>
 
         <div class="header-welcome">
-            <div class="container">
+            <div class="welcome-container">
                 <h1>Welcome to Three Star Media</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
                 </p>
-                <a href="#">Connect with us &#9656;</a>
+                <a class="section-button" href="#">Connect with us &#9656;</a>
             </div> <!--end container-->
         </div> <!--end header-welcome-->
     </header>
