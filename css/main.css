@@ -349,21 +349,11 @@ footer p {
 
 @media screen and (min-width: 760px) {
    /*general*/
-   nav a:link {
-    background-color: #222;
-    color: #c78c06;
-   }
-   nav a:hover {
-    background-color: #c78c06;
-    color: #222;
-   }
 
    p {
     line-height: 1.5em;
    }
-   section-button {
-
-   }
+   
     /*nav*/
     .container {
         max-width:1200px;
@@ -389,6 +379,10 @@ footer p {
         background-color: #222;
         float: left;
 
+    }
+
+    .logo img {
+            padding-top: 18px;
     }
 
     .search-bar-style {
