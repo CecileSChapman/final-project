@@ -23,19 +23,19 @@
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Team</a></li>
                     <li><a href="#">Contact</a></li>
+                    <li><form>
+                        <div class="search">
+                            <div class="search-bar">
+                                <input class="search-bar-style" type="search" id="site-search" name="site-search" placeholder="Search">
+                            </div> <!--end search-bar-table-->
+                            <div class="search-button">
+                                <button>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </div> <!--end search-button-->
+                        </div> <!--end search-->
+                    </form></li>
                 </ul>
-                <form>
-                    <div class="search">
-                        <div class="search-bar">
-                            <input class="search-bar-style" type="search" id="site-search" name="site-search" placeholder="Search">
-                        </div> <!--end search-bar-table-->
-                        <div class="search-button">
-                            <button>
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </button>
-                        </div> <!--end search-button-->
-                    </div> <!--end search-->
-                </form>
             </div> <!--end container-->
         </nav>
 
@@ -70,6 +70,7 @@
         <section class="section-services">
             <div class="container">
                 <h2>Our Services</h2>
+                <div class="section-flex">
                 <div class="dig-trans">
                     <img class="image-fill" src="images/digital.jpg" alt="photo of person using phone and laptop">
                     <div class="description-section">
@@ -90,6 +91,8 @@
                     <a class="section-button" href="#">Marketing Plans &#9656;</a>
                     </div> <!--end description-section-->
                 </div> <!--end marketing-->
+                </div>
+                <div class="section-flex">
                 <div class="vid-prod">
                     <img class="image-fill" src="images/video.jpg" alt="image of phone with YouTube logo">
                     <div class="description-section">
@@ -120,6 +123,7 @@
                     <a class="section-button" href="#">Print Plans &#9656;</a>
                     </div>
                 </div> <!--end print-->
+                </div> <!--end section-flex-->
             </div> <!--end container-->
         </section> <!--end section-services-->
         <section class="section-vision">
@@ -135,6 +139,7 @@
         <section class="section-team">
             <div class="container">
                 <h2>Our Team</h2>
+                <div class="grid">
                 <div class="john-photo">
                     <img class="image-fill" src="images/john.jpg" alt="photo of John Doe">
                 </div> <!--end john-photo-->
@@ -156,6 +161,7 @@
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.
                     </p>
+                    </div>
                 </div> <!--end bob-about-->
             </div> <!--end container-->
         </section> <!--end section-team-->
@@ -163,6 +169,7 @@
         <section class="section-contact">
             <div class="container">
                 <h2>Contact Us</h2>
+                <div class="contact-grid">
                 <div class="message-form">
                     <h3>Send us a message</h3>
                     <form>
@@ -171,7 +178,7 @@
                         <label for="email">Email</label> <br>
                         <input type="text" id="email" name="email"> <br>
                         <label for="message">Message</label> <br>
-                        <input type="textarea" id="message" name="message"> <br>
+                        <textarea  id="message" name="message"></textarea> <br>
                         <input type="submit" value="Send">
                     </form>
                 </div> <!--end message-form-->
@@ -195,6 +202,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944551804456!2d-75.75712548503039!3d45.34993154908298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669668659462!5m2!1sen!2sca" width="677" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div> <!--end map-->
                 </div> <!--end location-->
+                </div> <!--end contact-grid-->
             </div> <!--end container-->
         </section> <!--end section-contact-->
 

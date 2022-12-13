@@ -221,7 +221,7 @@ input#site-search {
 
 /* vision */
 
-.section-vision {
+.section-vision .container {
     background-image: url(../images/vision.jpg);
     color: white;
     background-repeat: no-repeat;
@@ -282,10 +282,14 @@ input[type="submit" i] {
     margin-bottom: 1em;
 }
 
-input[type="textarea" i] {
+textarea {
     width: 100%;
     height: 5em;
     margin-top: .3em;
+}
+
+.message-form form {
+    padding-right: 8px;
 }
 
 /* hours */
@@ -295,6 +299,7 @@ input[type="textarea" i] {
     border: 1px solid black;
     width: 100%;
     margin-bottom: 1em;
+    padding-right: .5em;
 }
 .row-one {
     text-align: center;
@@ -328,9 +333,12 @@ td {
 /* footer */
 
 footer {
-    background-color: #222;
     color:#c78c06;
     font-size: xx-small;
+}
+
+footer .container {
+    background-color: #222;
 }
 
 footer p {
@@ -339,6 +347,159 @@ footer p {
 
 /* desktop */
 
-@media screen and (min-wdth: 760px) {
+@media screen and (min-width: 760px) {
+   /*general*/
+   nav a:link {
+    background-color: #222;
+    color: #c78c06;
+   }
+   nav a:hover {
+    background-color: #c78c06;
+    color: #222;
+   }
+
+   p {
+    line-height: 1.5em;
+   }
+   section-button {
+
+   }
+    /*nav*/
+    .container {
+        min-width: 100vw;
+        padding-left: 8.5%;
+        padding-right: 8.5%;
+    }
+
+    nav .container {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+
+    ul {
+        display: table;
+    }
+
+    li {
+        display: table-cell;
+        width: 7em;
+    }
+    .logo {
+        background-color: #222;
+        float: left;
+
+    }
+
+    .search-bar-style {
+        width: 9em;
+    }
+
+    /* welcome */
+    .header-welcome {
+        min-width: 100vw;
+        padding: 5em;
+    }
+
+    .welcome-button {
+        padding: 2em;
+    }
+
+    h1 {
+        font-size: 414%;
+    }
+
+    /*sections*/
+
+    .about-us {
+        padding: .5em;
+    }
+
+    .section-flex {
+        display: flex;
+
+    }
+
+    .dig-trans {
+        padding-right: 0.5em;
+    }
+
+    .marketing {
+        padding-right: 0.5em;
+    }
+
+    .vid-prod {
+        padding-right: 0.5em;
+        padding-top: 0.5em;
+    }
+
+    .web-dev {
+        padding-right: 0.5em;
+        padding-top: 0.5em;
+    }
+
+    .print {
+        padding-right: 0.5em;
+        padding-top: 0.5em;
+    }
+
+    /* team */
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 
+        'john-photo john-about'
+        'bob-about bob-photo' 
+        ;
+    }
+
+    .bob-about {
+        grid-row: 2 / span 1;
+        grid-column: 1 / span 1;
+    }
+    .john-about {
+        margin-bottom: 0;
+    }
+
+    /*contact*/
+    
+    .section-contact h2 {
+        padding-top: 1em;
+        padding-bottom: 1.5em;
+    }
+
+    .contact-grid {
+        display:grid;
+    }
+
+    .message-form {
+        grid-row: 1 / span 1;
+        grid-column: 1 / span 1;
+    }
+    .location {
+        grid-row: 1 / span 1;
+        grid-column: 2 / span 1;
+    }
+    .hours {
+
+        grid-column: 1 / span 2;
+    }
+
+    .hours h3 {
+        padding-top: 1em;
+    }
+
+    .message-form form {
+        padding-right: 1.5em;
+    }
+
+
+
+
+
+
+
     
 }
