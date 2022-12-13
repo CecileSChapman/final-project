@@ -366,7 +366,6 @@ footer p {
    }
     /*nav*/
     .container {
-        min-width: 100vw;
         max-width:1200px;
         padding-left: 8.5%;
         padding-right: 8.5%;
@@ -402,12 +401,35 @@ footer p {
         padding: 5em;
     }
 
+    .welcome-container {
+        margin-right: 15%;
+    }
+
+    .welcome-container p {
+        margin-right: 45%;
+    }
+
     .welcome-button {
         padding: 2em;
     }
 
     h1 {
-        font-size: 414%;
+        font-size: 82px;
+    }
+
+    /*about*/
+
+    .section-about .container {
+        display: grid;
+    }
+
+    .about-us-image {
+        grid-row: 1 / span 1; 
+    }
+
+    .about-us {
+        grid-row: 1 / span 1;
+        grid-column: 2 / span 1;
     }
 
     /*sections*/
@@ -419,6 +441,27 @@ footer p {
     .section-flex {
         display: flex;
 
+    }
+    .section-button {
+        text-align: center;
+    }
+
+    .dig-trans .section-button {
+        width: 91%;
+    }
+
+    .marketing .section-button {
+        width: 91%;
+    }
+
+    .vid-prod .section-button {
+        width: 86%;
+    }
+    .web-dev .section-button {
+        width: 86%;
+    }
+    .print .section-button {
+        width: 86%;
     }
 
     .dig-trans {
