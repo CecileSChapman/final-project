@@ -54,27 +54,69 @@ table {
 /*general*/
 body {
     font-family:'Open Sans', sans-serif;
-    font-size: xx-small;
+    font-size: small;
     color: black;
     background-color: white;
 }
 
 .container {
-    padding: 14px;
+    padding: 8px;
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 2em;
+    font-weight: 700;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+h3 {
+    font-size: large;
+    font-weight: 700;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+h4 {
+    font-size: x-small;
     font-weight: 700;
 }
 
+.description-section{
+    background-color: #ffe6ac;
+    padding-left: .5em;
+    padding-bottom: .5em;
+}
+
 h1 {
-    font-size: 5em;
+    font-size: 3em;
     color: white;
     font-weight: 700;
     line-height: 1.5em;
 }
 
+p {
+    font-size: xx-small;
+    padding-bottom: 8px;
+}
+
+.section-button {
+    background-color: #222;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 18px;
+    display:table;
+    font-size: small;
+}
+
+.image-fill {
+    width: 100%;
+}
+
+hr {
+    border-bottom: 1px solid #c78c06;
+}
 
 /* nav */
 
@@ -91,6 +133,10 @@ ul li {
 .logo {
     background-color: #c78c06;
     padding-bottom: 25px;
+}
+
+.logo img {
+    width: auto;
 }
 
 ul a {
@@ -114,7 +160,7 @@ ul a {
     border: 1px solid #222;
     width: 100%;
     padding-left: 7px;
-    font-size: 17px;
+    font-size: small;
 }
 
 input#site-search {
@@ -129,7 +175,7 @@ input#site-search {
     border: 1px solid #c78c06;
     background-color: #222;
     color:#c78c06;
-    font-size: 17px;
+    font-size: small;
     padding: 5px;
 }
 /*welcome*/
@@ -147,18 +193,17 @@ input#site-search {
     padding: 7px;
 }
 
-.section-button {
+.welcome-button {
     background-color: #c78c06;
     text-decoration: none;
     color: black;
     display: block;
     padding: 18px;
     display:table;
-    font-size: 17px;
+    font-size: small;
 }
 .header-welcome p {
     color: white;
-    padding-bottom: 8px;
 }
 
 /*about*/
@@ -167,8 +212,129 @@ input#site-search {
     background-color: #ffe6ac;
 }
 
-.about-us-image img {
-    max-width: 100%;    
+
+/* services */
+
+.section-services .container {
+    background-color: white;
+}
+
+/* vision */
+
+.section-vision {
+    background-image: url(../images/vision.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0.5em;
+}
+
+.vision-button {
+    background-color: rgba(0,0,0,0.5);
+    text-decoration: none;
+    color: white;
+    border: 1px solid #c78c06;
+    display: block;
+    padding: 18px;
+    display:table;
+    font-size: small;
+}
+
+/* john */
+.john-about {
+    background-color: #ffe6ac;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-bottom: 1em;
+    margin-bottom: .7em;
+}
+/* bob */
+.bob-about {
+    background-color: #ffe6ac;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-bottom: 1em;
+}
+
+/* contact */
+.section-contact h3 {
+    padding-top: 0;
+}
+
+label {
+    font-size: xx-small;
+}
+
+input[type="text" i] {
+    margin-top: .3em;
+    width: 100%;
+}
+
+input[type="submit" i] {
+    background-color: #222;
+    border: 1px solid black;
+    color: #c78c06;
+    margin-top: 1em;
+    font-size: x-small;
+    padding-right: .2em;
+    padding-left: .2em;
+    margin-bottom: 1em;
+}
+
+input[type="textarea" i] {
+    width: 100%;
+    height: 5em;
+    margin-top: .3em;
+}
+
+/* hours */
+
+.hours table {
+    font-size: xx-small;
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.row-one {
+    text-align: center;
+    background-color: #ffe6ac;
+}
+td {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    padding: 1em;
+}
+
+/*map*/
+
+.location {
+    width:100%; 
+    max-width: 677px;
+    height:100%; 
+    margin:0 auto;
+}
+.map {position:relative; 
+    padding-top: 56%;
+}
+.map iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%; 
+    height:100%;
+}
+
+/* footer */
+
+footer {
+    background-color: #222;
+    color:#c78c06;
+    font-size: xx-small;
+}
+
+footer p {
+    line-height: 1.5em;
 }
 
 /* desktop */
