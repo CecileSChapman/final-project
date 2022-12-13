@@ -367,6 +367,7 @@ footer p {
     /*nav*/
     .container {
         min-width: 100vw;
+        max-width:1200px;
         padding-left: 8.5%;
         padding-right: 8.5%;
     }
